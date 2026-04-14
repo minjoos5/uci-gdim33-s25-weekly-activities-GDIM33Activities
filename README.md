@@ -22,3 +22,6 @@
 ## W2
 
 Activity was updated on GitHub.
+
+## W3
+
