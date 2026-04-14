@@ -20,6 +20,5 @@
 ![GDIM 33-1](https://github.com/user-attachments/assets/37a5d072-2589-45a3-8ae2-71df7f3093a1)
 
 ## W2
-Write your W2 Devlog here.
 
-Continue adding additional headers below this one for future weeks and future activities.
+Activity was updated on GitHub.
