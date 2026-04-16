@@ -25,3 +25,7 @@ Activity was updated on GitHub.
 
 ## W3
 
+### Activity 1
+
+<img width="2384" height="2187" alt="IMG_0656" src="https://github.com/user-attachments/assets/d38c3ac5-a143-40d4-b0a8-9307aa6309bb" />
+
