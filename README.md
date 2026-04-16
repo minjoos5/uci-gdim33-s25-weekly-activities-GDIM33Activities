@@ -29,3 +29,10 @@ Activity was updated on GitHub.
 
 <img width="2384" height="2187" alt="IMG_0656" src="https://github.com/user-attachments/assets/d38c3ac5-a143-40d4-b0a8-9307aa6309bb" />
 
+### Activity 2
+
+1. I was able to call the scene variable from a different graph. Thus, I could manage events across multiple graphs, such as serializing a field or a locator. I was able to call the clickNpcEventName event in the Walrus visual script.
+2. It was useful to use debug log nodes in the in class activites since I was able to check which feature is working or not. I could review the graph with the problem and fix it comprehensively.
+3. It's relevant to my vertical slice since my vertical slice is a point-and-click horror adventure game. The cursor should be in the middle and fixed so that the player can know where the cursor is (to identify its location, I put the white crosshair in it)
+Is the concept of a "game state" relevant to your Vertical Slice? Why or why not?
+4. I think the game state will be relevant to UI, deciding when to show the appropriate UI window. Based on the game state, the UI manager will display the appropriate UI screen to depict the character's situation. (game over screen with restart button, game win screen, game start screen, and more.)
