@@ -39,4 +39,25 @@ Is the concept of a "game state" relevant to your Vertical Slice? Why or why not
 
 ## W4
 ### Activity 1
+What’s playable:
+- The player can pick up items (the item disappears when the player clicks it)
+- The player can run from the NPC and hide
+- NPC follows the player and shows the game-over screen when the player collides with the NPC
+
+
+Playtest goal:
+- Check the game experience & movement
+- Is there any error?
+- What can I improve?
+
+
+Playtest notes:
+- Mouse sensitivity is too high
+- The player’s speed is too high
+- The playtesters had difficulty understanding the goals and interactive items	
+- Recommended adding simple text like (click to interact) with the items
+- I think I can add glow/color/other VFX to the interactive items
+- Manipulate the timing of the monster's appearance so the player can investigate the backroom in detail.
+- Besides this, everything is okay
+
 ### Activity 2
