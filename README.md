@@ -36,3 +36,7 @@ Activity was updated on GitHub.
 3. It's relevant to my vertical slice since my vertical slice is a point-and-click horror adventure game. The cursor should be in the middle and fixed so that the player can know where the cursor is (to identify its location, I put the white crosshair in it)
 Is the concept of a "game state" relevant to your Vertical Slice? Why or why not?
 4. I think the game state will be relevant to UI, deciding when to show the appropriate UI window. Based on the game state, the UI manager will display the appropriate UI screen to depict the character's situation. (game over screen with restart button, game win screen, game start screen, and more.)
+
+## W4
+### Activity 1
+### Activity 2
