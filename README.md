@@ -51,7 +51,7 @@ Playtest goal:
 - What can I improve?
 
 
-Playtest notes:
+Playtest notes: (Ruth & Eli)
 - Mouse sensitivity is too high
 - The player’s speed is too high
 - The playtesters had difficulty understanding the goals and interactive items	
