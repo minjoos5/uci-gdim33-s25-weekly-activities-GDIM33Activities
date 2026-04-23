@@ -61,3 +61,7 @@ Playtest notes: (Ruth & Eli)
 - Besides this, everything is okay
 
 ### Activity 2
+1. I think they can use these visual scripting graphs to design nodes. However, I think they must write at least some code to make the diagram work since all visual scripting graphs and scripts require programming knowledge. If the writer has a background in programming, then yes.
+2. If the scripts get longer, the writer has to make a number of nodes, which is not scalable and redundant. It’s better to use another program to make longer dialogues.
+3. Resetting the node system to use new nodes
+
