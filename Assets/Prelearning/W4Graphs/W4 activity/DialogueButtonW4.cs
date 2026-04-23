@@ -17,6 +17,8 @@ namespace W4Activity
             {
                 DialogueAdvancerW4._Instance.ChooseDialogue(reply.nextNode);
             });
+
+            
         }
     }
 }

@@ -10,13 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
-  m_Name: DialogueLineW4
+  m_Name: Answer 3
   m_EditorClassIdentifier: 
-  Line: Hello
-  ReplyOptions:
-  - line: Hi!
-    nextNode: {fileID: 11400000, guid: cbca7016aa91a3146a3295a7246e5742, type: 2}
-  - line: Nah
-    nextNode: {fileID: 11400000, guid: 2a13c33d014e74a41af1f20da8051206, type: 2}
-  - line: I like CAT >:(
-    nextNode: {fileID: 11400000, guid: 01386cc59b7cd3745bc74af1da9fa82c, type: 2}
+  Line: NO DOG IS THE BEST
+  ReplyOptions: []
