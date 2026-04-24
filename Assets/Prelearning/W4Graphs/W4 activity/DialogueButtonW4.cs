@@ -9,6 +9,7 @@ namespace W4Activity
         [SerializeField] private TMP_Text _text;
         [SerializeField] private Button _button;
 
+
         public void SetupButton (PlayerReplyW4 reply)
         {
             _text.text = reply.line;
@@ -18,7 +19,6 @@ namespace W4Activity
                 DialogueAdvancerW4._Instance.ChooseDialogue(reply.nextNode);
             });
 
-            
         }
     }
 }
