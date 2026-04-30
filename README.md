@@ -68,5 +68,18 @@ Playtest notes: (Ruth & Eli)
 ## W5
 
 ### Activity 1
+
+Navmesh for NPC chasing
+
+1. Call NavMesh in Unity and select the game object that will serve as the ground (the area where the NPC will navigate).
+2. Bake the navmesh first to check the NPC’s movement.
+3. In C# or visual scripting, put a navmesh agent.setDestination(player transform) to make the NPC follow the character.
+4. However, the NPC won’t be able to detect the obstacles, and it’ll try to approach the player, ignoring any obstacles in front of it.
+5. Once this works, then go to Navmesh (obsolete) to make the NPC detect the walls (or other obstacles)
+6. Check navigation static, generate off-mesh links. Set the navigation area not walkable.
+7. Now, connect the raycast to make the NPC detect the player with its own sight system.
+8. The NPC will use raycast and gizmos to check whether it’s raycast from its eye part (if it’s humanoid). If the raycast works okay, disable the gizmos in the script and write the sight system script. (the length of the ray, the distance between them, and how sight connects to the previous state machines/distance detection)
+9. Then the NPC will detect the obstacles with its sight and follow the character based on the transform input at the end.
+
 ### Activity 2
 
