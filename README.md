@@ -81,5 +81,10 @@ Navmesh for NPC chasing
 8. The NPC will use raycast and gizmos to check whether it’s raycast from its eye part (if it’s humanoid). If the raycast works okay, disable the gizmos in the script and write the sight system script. (the length of the ray, the distance between them, and how sight connects to the previous state machines/distance detection)
 9. Then the NPC will detect the obstacles with its sight and follow the character based on the transform input at the end.
 
+
 ### Activity 2
 
+- The NPC moves around the map, following the player’s transform.position.
+- The NPC detects the wall and avoids it.
+- The NPC changes state based on the distance between the player and itself.
+- The NPC has the sight on its chest. It plays the warning sound when it sees the player.
