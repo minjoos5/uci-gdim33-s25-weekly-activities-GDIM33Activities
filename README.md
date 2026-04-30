@@ -65,3 +65,8 @@ Playtest notes: (Ruth & Eli)
 2. If the scripts get longer, the writer has to make a number of nodes, which is not scalable and redundant. It’s better to use another program to make longer dialogues.
 3. Resetting the node system to use new nodes
 
+## W5
+
+### Activity 1
+### Activity 2
+
