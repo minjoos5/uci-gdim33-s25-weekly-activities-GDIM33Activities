@@ -88,3 +88,31 @@ Navmesh for NPC chasing
 - The NPC detects the wall and avoids it.
 - The NPC changes state based on the distance between the player and itself.
 - The NPC has the sight on its chest. It plays the warning sound when it sees the player.
+
+
+## W6
+### Activity 1
+#### new updates
+- The stamina bar was added
+- The enemy now has the hit animation
+- The enemy detects the player with the raycast, not the distance between the player and the NPC
+
+
+#### [Itch link](https://minjoos5.itch.io/gdim-33-milestone-2)
+
+#### The goals
+- Check these items below:
+  - Does the enemy’s raycast work okay?
+  - Does the stamina work well? Is it buggy?
+  - Does the hit animation show at the appropriate moment? (when the player stabbed the NPC with the knife item)
+
+
+#### Playtesting Notes
+- The wall is too sticky (stuck)
+- It’s difficult to compare which one is a clickable item or an interactable item
+- Want to see the map again (the player has to go to find a cassette player to see the map again)
+- The enemy's movement was good & stamina is too much (if I make the enemy faster, it might change)
+- Maybe improve the balance between the enemy and the player’s speed (stamina system)
+
+
+### Activity 2
