@@ -116,3 +116,7 @@ Navmesh for NPC chasing
 
 
 ### Activity 2
+1. Since the multiply option literally multiplies the RGB values of two vectors, it results in a darker material color. (The number will become larger if the two vectors’ values are multiplied.)
+2. More translucent means the alpha value determines transparency; it is also multiplied (unless it’s a negative value, the value will increase as it’s multiplied)
+3. From the vectors of the Shiba
+4. Yes! It’s because I’ve always wondered about the differences between the layer effects in drawing tools (overlay, multiply, screen, etc.).
