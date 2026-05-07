@@ -111,7 +111,7 @@ Navmesh for NPC chasing
 - The wall is too sticky (stuck)
 - It’s difficult to compare which one is a clickable item or an interactable item
 - Want to see the map again (the player has to go to find a cassette player to see the map again)
-- The enemy's movement was good & stamina is too much (if I make the enemy faster, it might change)
+- The enemy's movement and raycast system were good & stamina is too much (if I make the enemy faster, it might change)
 - Maybe improve the balance between the enemy and the player’s speed (stamina system)
 
 
