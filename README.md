@@ -92,7 +92,7 @@ Navmesh for NPC chasing
 
 ## W6
 ### Activity 1
-#### new updates
+#### New updates
 - The stamina bar was added
 - The enemy now has the hit animation
 - The enemy detects the player with the raycast, not the distance between the player and the NPC
