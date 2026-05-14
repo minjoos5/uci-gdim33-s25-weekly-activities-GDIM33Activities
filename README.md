@@ -120,3 +120,6 @@ Navmesh for NPC chasing
 2. Less translucent means the alpha value determines transparency; it is also multiplied (unless it’s a negative value, the value will decrease as it’s multiplied)
 3. From the vectors of the Shiba
 4. Yes! It’s because I’ve always wondered about the differences between the layer effects in drawing tools (overlay, multiply, screen, etc.).
+
+## W7
+
