@@ -123,7 +123,7 @@ Navmesh for NPC chasing
 
 ## W7
 1. It’s from each vertex of the Shiba model’s mesh.
-2. It’s because the vector’s x y z substituted r g b value of the surface normals.
+2. It’s because geometry data interpolates the adjacent vertices.
 3. I think this is because it’s missing the shade data. It would be useful to check the basic colors of the image and check how the shade effect influences it.
 4. I guess that it’s using vertex data as RGB data.
 5. I think the shade effect can be used to replace the color system. This is because the shade also requires the three vector values to process the shader.
