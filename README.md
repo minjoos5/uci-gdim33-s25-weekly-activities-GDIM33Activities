@@ -122,4 +122,12 @@ Navmesh for NPC chasing
 4. Yes! It’s because I’ve always wondered about the differences between the layer effects in drawing tools (overlay, multiply, screen, etc.).
 
 ## W7
+1. It’s from each vertex of the Shiba model’s mesh.
+2. It’s because the vector’s x y z substituted r g b value of the surface normals.
+3. I think this is because it’s missing the shade data. It would be useful to check the basic colors of the image and check how the shade effect influences it.
+4. I guess that it’s using vertex data as RGB data.
+5. I think the shade effect can be used to replace the color system. This is because the shade also requires the three vector values to process the shader.
+6. It’s because of the negative dot product result (conflict) By multiplying -1 to x value, it can be fixed.
+7. It's because we’re adding orange color (tint) to the monotone image (black & white).
+
 
