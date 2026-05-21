@@ -137,9 +137,9 @@ Navmesh for NPC chasing
 1. I added an introduction (a simple dialogue and blinking eye animation)
 2. [itch link](https://minjoos5.itch.io/gdim-vertical-slice-milestone-3)
 3. Playtest Goals
-  1. Does the blinking animation work okay? Not buggy?
-  2. How’s the dialogue? How can I improve the dialogue system?
-  3. The background music (ambient) and the other SFX (walking sounds, attacking sounds of NPC) are not implemented yet: do you think it will help detection of the NPC’s location?
+  -Does the blinking animation work okay? Not buggy?
+  - How’s the dialogue? How can I improve the dialogue system?
+  - The background music (ambient) and the other SFX (walking sounds, attacking sounds of NPC) are not implemented yet: do you think it will help detection of the NPC’s location?
 
 #### Playtest Notes
 1. Add a dialogue box or something that can show the dialogue’s location
