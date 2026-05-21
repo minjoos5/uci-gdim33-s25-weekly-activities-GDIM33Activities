@@ -131,3 +131,32 @@ Navmesh for NPC chasing
 7. It's because we’re adding orange color (tint) to the monotone image (black & white).
 
 
+## W8
+### Activity 1
+#### Playtest Goals
+1. I added an introduction (a simple dialogue and blinking eye animation)
+2. [itch link](https://minjoos5.itch.io/gdim-vertical-slice-milestone-3)
+3. Playtest Goals
+  1. Does the blinking animation work okay? Not buggy?
+  2. How’s the dialogue? How can I improve the dialogue system?
+  3. The background music (ambient) and the other SFX (walking sounds, attacking sounds of NPC) are not implemented yet: do you think it will help detection of the NPC’s location?
+
+#### Playtest Notes
+1. Add a dialogue box or something that can show the dialogue’s location
+2. Map improvement (add live location map or let the player check the map multiple times, add explanation of the symbol (red X))
+3. Instruction text on the other items
+4. Add walking sound (+ more SFX)
+5. Knife on the side (like FPS games)
+6. Change blinking animation's sprite (realistic)
+7. Automatically start the dialogue after a restart
+8. Collider fix (more skinny player TwT)
+
+
+### Activity 2
+#### Activity 2C
+1. Render PostProcessing Effects & UberPostProcess (Uber..?), Full Screen Pass Feature, Final Blit
+    - This is because all passes display the post-processing effect on the screen. For example, when I click Final Blit’s “draw procedural,” I can see how the texture is applied to the entire game screen and how it changes over time.
+2. As the number increases (0 to 1), the screen shows the texture (the red/black VFX) more clearly. When it’s 0, it displays the basic game screen without red effects.
+3. Based on the time value, the lerp node transitions between the basic screen (0) and the red texture (1). Thus, the value creates the changes on the rendering screen.
+4. As mentioned in the instructions, sin(time) showed a bright phase when the game was rendered (a fluorescent green pattern on the screen). I think this is because the lerp value reaches -1, which makes the screen look more yellowish-green (reaching both 1 and -1). By using the new sin value to lerp the graph, the shader graph only reaches 0 and 1, which prevents the yellow-greenish VFX. It only shows the basic game screen (0) and the red texture (1).
+
