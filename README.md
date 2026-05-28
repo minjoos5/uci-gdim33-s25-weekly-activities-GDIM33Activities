@@ -160,3 +160,8 @@ Navmesh for NPC chasing
 3. Based on the time value, the lerp node transitions between the basic screen (0) and the red texture (1). Thus, the value creates the changes on the rendering screen.
 4. As mentioned in the instructions, sin(time) showed a bright phase when the game was rendered (a fluorescent green pattern on the screen). I think this is because the lerp value reaches -1, which makes the screen look more yellowish-green (reaching both 1 and -1). By using the new sin value to lerp the graph, the shader graph only reaches 0 and 1, which prevents the yellow-greenish VFX. It only shows the basic game screen (0) and the red texture (1).
 
+## W9
+
+### Activity 1
+1. Minecraft
+2. The nausea effect when the player takes the potion or is attacked by the enemy. I think the Boolean value activates the shader system when the player drinks the potion or is attacked by the enemy. As the boolean value becomes true (maybe something like _nauseaState = false to _nauseaState = true), the full-screen post-processing effect turns on and distorts the whole screen as if the player were suffering from dizziness. I think Minecraft uses something like a coroutine to deactivate the nausea after a few seconds (or a specific duration). Since the shader’s on/off settings can be manipulated in the C# script, I think it can manage time using a coroutine.
