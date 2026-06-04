@@ -218,3 +218,5 @@ Make a priority rank and list them
 
 
 ### Activity 3
+
+I fixed the Unity errors with the crowbar animation, and I'm still adding the logic to disable the instruction texts after game over(win).
