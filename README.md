@@ -206,9 +206,13 @@ Have overall goal/final game image
 - Major features
   - Link tutorials if needed
   - Jot down how to implement
+
+
 Make a to-do list of the major components that should be implemented
 - Diagrams or checklist
 - How-to method
+
+
 Make a priority rank and list them
 - These processes help us to understand the game’s scope and size
 
