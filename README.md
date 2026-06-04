@@ -175,3 +175,42 @@ Navmesh for NPC chasing
 - I had a problem with the WebGL build, but Professor Reid helped me make it work on the WebGL build.
 - It was because of the high fidelity (quality settings)
 - I made the winning condition for the second backroom
+
+
+## W10
+
+### Activity 1
+
+#### New updates
+- I added the red flash renderer effect and the ambient background music in the game.
+- I fixed the logic errors with the second-level NPC.
+
+
+#### [Itch link](https://minjoos5.itch.io/gdim-33-final-submission)
+
+#### The goals
+- Check these items below:
+  - Does the attack red flash work okay?
+  - How’s the general gameplay? (No bugs and works smoothly?)
+  - How’s your experience with the second-level NPC? 
+
+#### Playtesting Notes
+- The red flash effect worked well
+- The game experience was also good: fun and scary. Mouse sensitivity is still too high
+- The second-level NPC was scary, too. But the second level is too dark --> maybe it need more improvements
+
+### Activity 2
+Have overall goal/final game image
+- Mechanics
+- Aesthetics
+- Major features
+  - Link tutorials if needed
+  - Jot down how to implement
+Make a to-do list of the major components that should be implemented
+- Diagrams or checklist
+- How-to method
+Make a priority rank and list them
+- These processes help us to understand the game’s scope and size
+
+
+### Activity 3
